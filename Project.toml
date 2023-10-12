@@ -1,0 +1,13 @@
+name = "EvSeg"
+uuid = "ab60693d-d3dc-4528-89d8-c894f66fd9d4"
+authors = ["langestroop <alberto.mariola@icloud.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
