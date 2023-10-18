@@ -41,7 +41,7 @@ See also min_dist
 function min_dist(x)
     @assert all(!isnan, x) "Watch out, there might be NaNs"
     s = 0
-    @showprogress for k in eachindex(x)
+    for k in eachindex(x)
         s = s + x[k]
     end
     return s
